@@ -1,0 +1,25 @@
+.header__search-bar {
+    max-width: max-content;
+    position: relative;
+    
+}
+
+.header__search-bar-input {
+    background-color: #335AD2;
+    border: none;
+    color: white;
+    width: 238px;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.header__search-bar-input:focus {
+    outline: 1px solid white;
+}
+
+.header__search-bar img {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}

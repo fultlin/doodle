@@ -1,0 +1,48 @@
+.about {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    position: relative;
+}
+
+.about h2 {
+    position: absolute;
+    left: 46%;
+    top: 13px;
+    font-size: 64px;
+}
+
+.about__left {
+    width: 100%;
+    background: radial-gradient(49.99% 49.92% at 40.7% 50.08%, rgb(56, 93, 210) 0%, rgb(51, 90, 210) 28.49999964237213%, rgb(107, 120, 207) 100%);
+}
+
+.about__right {
+    max-width: 760px;
+    width: 100%;
+}
+
+.left, .right {
+    text-align: left;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+.about_hwo {
+    margin: 44px auto 143px;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.left {
+    max-width: 450px;
+    margin: 0 auto;
+    margin-bottom: 169px;
+}
+
+.right {
+    max-width: 525px;
+    margin: 0 auto;
+}
+

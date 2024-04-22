@@ -1,0 +1,15 @@
+.login__button {
+    border-radius: 5px;
+    width: 108px;
+    height: 37px;
+    backdrop-filter: blur(2px);
+    background: linear-gradient(90deg, #d27968 0%, #f1d6aa 100%);
+    font-weight: 700;
+    font-size: 20px;
+    color: #3A3E6E;
+    border: none;
+}
+
+.login__button:hover {
+    cursor: pointer;
+}
