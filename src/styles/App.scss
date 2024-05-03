@@ -1,0 +1,17 @@
+@use './variables.scss' as variable;
+@import url('./reset.scss');
+@import url('./fonts.scss');
+@import url('../components/header/header.scss');
+@import url('../components/main/main.scss');
+
+
+html {
+  font-family: 'IBM', sans-serif;
+  background-color: variable.$background-color;
+  color: white;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
