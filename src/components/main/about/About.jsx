@@ -1,9 +1,6 @@
 const About = () => {
     return (
-        <div className="wrapper about">
-            <h2>
-                О нас
-            </h2>
+        <div className="about">
             <div className="about__left">
                 <h3 className="about_hwo">
                     Студенту

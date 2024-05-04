@@ -6,9 +6,9 @@
 
 
 html {
-  font-family: 'IBM', sans-serif;
+  font-family: variable.$font-primary;
   background-color: variable.$background-color;
-  color: white;
+  color: variable.$text-color-primary;
 }
 
 .wrapper {

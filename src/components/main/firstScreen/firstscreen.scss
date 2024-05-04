@@ -5,9 +5,9 @@
     padding: 159px 82px 190px;
 
     &__name {
-        font-family: vb.$font-primary;
+        font-family: vb.$font-secondary;
         font-weight: 400;
-        font-size: 130px;
+        font-size: 200px;
         color: vb.$text-color-secondary;
         max-width: max-content;
     }
@@ -42,9 +42,10 @@
         
         p{
             position: relative;
-            transform: translateY(128px);
+            transform: translateY(160px);
             font-weight: 400;
-            font-size: 24px;
+            font-size: 48px;
+            font-family: vb.$font-secondary;
             color: vb.$text-color-third;
             z-index: 3;
         }
@@ -72,7 +73,7 @@
 
 .firstsreen_img:hover img{
     cursor: pointer;
-    animation: spin 2s infinite;
+    animation: spin 3s infinite;
 
 }
 

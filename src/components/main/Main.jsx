@@ -3,15 +3,19 @@ import FirstScreen from "./firstScreen/FirstScreen"
 
 const Main = () => {
     return (
-        <div className="wrapper main">
+        <>
             <section>
-                <FirstScreen/>
+                <div className="wrapper main">
+                    <FirstScreen/>
+                </div>
             </section>
 
             <section>
-                <About/>
+                <div className="wrapper main">
+                    <About/>
+                </div>
             </section>
-        </div>
+        </>
     )
     
 }

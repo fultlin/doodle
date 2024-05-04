@@ -4,7 +4,7 @@ import Login from '../../header/components/login/Login'
 const FirstScreen = () => {
     return (
         <div className="firstsreen">
-            <h1 className="firstsreen__name">Doodle</h1>
+            <p className="firstsreen__name">Doodle</p>
             <p className="firstsreen__description">
                 Платформа для реализации своего творческого потенциала, поиска своей аудитории и работадалей
             </p>
