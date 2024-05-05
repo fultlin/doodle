@@ -1,7 +1,9 @@
 import About from "./about/About"
 import FirstScreen from "./firstScreen/FirstScreen"
 import Projects from "./Projects/Prokects"
-import Students from './Students/Students'
+import Students from "./Students/Students"
+import Interaction from "./interaction/Interaction"
+
 const Main = () => {
     return (
         <>
@@ -25,6 +27,11 @@ const Main = () => {
             <section>
                 <div className="wrapper main">
                     <Students/>
+                </div>
+            </section>
+            <section>
+                <div className="wrapper main">
+                    <Interaction/>
                 </div>
             </section>
         </>
