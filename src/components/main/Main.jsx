@@ -1,6 +1,7 @@
 import About from "./about/About"
 import FirstScreen from "./firstScreen/FirstScreen"
 import Projects from "./Projects/Prokects"
+import Students from "./Students/Students"
 
 const Main = () => {
     return (
@@ -19,6 +20,11 @@ const Main = () => {
             <section className="section-projects">
                 <div className="wrapper main">
                     <Projects />
+                </div>
+            </section>
+            <section>
+            <div className="wrapper main">
+                    <Students />
                 </div>
             </section>
         </>
