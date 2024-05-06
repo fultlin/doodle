@@ -35,8 +35,8 @@ const Students = () => {
             {/* slider */}
             <Slider>
             
-            {studentsTest.map(element =>
-                <StudentCard student={element} />
+            {studentsTest.map((element, index) =>
+                <StudentCard key={index} student={element} />
                 )}
                 
             </Slider>

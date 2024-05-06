@@ -3,6 +3,8 @@ import FirstScreen from "./firstScreen/FirstScreen"
 import Projects from "./Projects/Prokects"
 import Students from "./Students/Students"
 import Interaction from "./interaction/Interaction"
+import News from "./news/news"
+import Require from "./require/require"
 
 const Main = () => {
     return (
@@ -32,6 +34,16 @@ const Main = () => {
             <section>
                 <div className="wrapper main">
                     <Interaction/>
+                </div>
+            </section>
+            <section className="section-news">
+                <div className="wrapper main">
+                    <News/>
+                </div>
+            </section>
+            <section>
+                <div className="wrapper main">
+                    <Require/>
                 </div>
             </section>
         </>

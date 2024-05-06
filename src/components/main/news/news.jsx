@@ -4,7 +4,7 @@ import concertIMG from './assets/concert.png';
 export default function News() {
     return (
         <>
-            <h1 className="news__main-text">Новости</h1>
+            <h2 className="news__main-text">Новости</h2>
             <ul className="news__news-list">
                 <li className="news__news-list--news-item">
                     <img src={concertIMG} alt="" className="news__news-item--image" />
