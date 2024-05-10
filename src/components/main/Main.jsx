@@ -41,7 +41,7 @@ const Main = () => {
                     <News/>
                 </div>
             </section>
-            <section>
+            <section className="section-require">
                 <div className="wrapper main">
                     <Require/>
                 </div>
